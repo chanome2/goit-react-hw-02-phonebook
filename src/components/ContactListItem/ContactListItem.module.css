@@ -1,0 +1,21 @@
+.contactListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 30px;
+}
+
+button{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(129, 169, 244);
+    border-radius: 5px;
+}
+
+button:hover{
+    scale: 1.1;
+    background-color: rgb(18, 97, 245);
+    color: white;
+
+    transition: all 250ms cubic-bezier(0.4 0 0.2 1);
+}
